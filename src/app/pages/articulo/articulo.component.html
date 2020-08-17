@@ -1,0 +1,17 @@
+
+<table class="table table-striped table-dark container">
+    <thead>
+        <td>Nombre_Articulo</td>
+        <td>Codigo_articulo</td>
+        <td>Descripcion_articulo</td>
+        <td>Valor_articulo</td>
+      </thead>
+      <tbody class="bg-danger">
+        <tr *ngFor="let articulo of lst">
+            <td>{{ articulo.noma }}</td>
+            <td>{{ articulo.coda }}</td>
+            <td>{{ articulo.desca }}</td>
+            <td>{{articulo.valora | currency}}</td>
+        </tr>
+    </tbody>
+</table>

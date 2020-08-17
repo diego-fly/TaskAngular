@@ -28,9 +28,17 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/jquery.nicescroll/dist/jquery.nicescroll.min.js",
+              "./node_modules/jquery.cookie/jquery.cookie.js",
+              "./node_modules/jszip/dist/jszip.js",
+              "./node_modules/jquery-ui-dist/jquery-ui.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -92,9 +100,12 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+             
+            ]
           }
         },
         "lint": {
@@ -123,6 +134,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "configuracionangular02"
+    }
+  },
+  "defaultProject": "configuracionangular02",
+  "cli": {
+    "analytics": "53faec6a-ad7e-4258-bb1d-a49f6343f907"
+  }
 }
